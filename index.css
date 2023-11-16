@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html{
+  display: block;
+}
+.header-section{
+  width: 100% !important;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+.header{
+  background: #fff;
+    font-size: 12px;
+    padding: 8px;
+    width: 100% !important;
+}
+.align-items{
+  margin-top: 30px;
+}
+.img1{
+  height: 48px;
+  width: 290px;
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: 340px;
+}
+.nav-menu-container{
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6%;
+  position: fixed;
+  display: inline-flex;
+ 
+}
+.nav-menu-container ul{
+  float: right;
+  margin-right: 20px;
+  
+}
+.nav-menu-container ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.nav-menu-container ul li a{
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-weight: 520;
+    font-size: 14px;
+    outline: none;
+}
+.bckgrd-img{
+  margin-left: 90px;
+  margin-right: 200px;
+  width: 1200px;
+  height: 300px;
+  margin-top: 130px;
+}
+.feature-area{
+  margin-top: 56px;
+  display: block;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.course1{
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.course2{
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.course3{
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.course4{
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
