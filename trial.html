@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Slideshow</title>
+    <style>
+        #slideshow {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .sli {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 480px;
+            transition: opacity 1s ease-in-out;
+            opacity: 0.98;
+            filter: blur(1.5px);
+            -webkit-filter: blur(1.8px);
+        }
+
+        .sli.active {
+            opacity: 1;
+        }
+
+        .sli img {
+            width: 100%;
+            object-fit: fill;
+        }
+
+        .text-holder {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff; /* Set your desired text color */
+        }
+
+        .text-holder h1 {
+            font-size: 24px; /* Set your desired font size */
+            font-weight: bold;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slides" id="slideshow">
+        <div class="sli">
+            <div class="text-holder">
+                <h1>Container 1</h1>
+            </div>
+            <img src="https://via.placeholder.com/800x480" alt="image">
+        </div>
+        <div class="sli">
+            <div class="text-holder">
+                <h1>Container 2</h1>
+            </div>
+            <img src="https://via.placeholder.com/800x480" alt="image">
+        </div>
+        <div class="sli">
+            <div class="text-holder">
+                <h1>Container 3</h1>
+            </div>
+            <img src="https://via.placeholder.com/800x480" alt="image">
+        </div>
+        <div class="sli">
+            <div class="text-holder">
+                <h1>Container 4</h1>
+            </div>
+            <img src="https://via.placeholder.com/800x480" alt="image">
+        </div>
+        <div class="sli">
+            <div class="text-holder">
+                <h1>Container 5</h1>
+            </div>
+            <img src="https://via.placeholder.com/800x480" alt="image">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let slideIndex = 0;
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("sli");
+
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].classList.remove("active");
+                }
+
+                slideIndex++;
+
+                if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                }
+
+                slides[slideIndex - 1].classList.add("active");
+                setTimeout(showSlides, 2000); // Change slide every 2 seconds
+            }
+
+            showSlides(); // Initial call to start the slideshow
+        });
+    </script>
+</body>
+</html>
