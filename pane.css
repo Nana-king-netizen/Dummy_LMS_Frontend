@@ -243,7 +243,38 @@ ul{
     font-size: 17px;
     margin-left: 15px;
 }
+.welcome{
+    width: 100%;
+   
+}
+.greet{
+    margin-top:20px;
+    font-size: 40px;
+    margin: auto;
+}
 
+.msg{
+    font-size: 17px;
+    text-wrap: below;
+    
+   
+}
+.com{
+    float:inline-end;
+    height:auto;
+    width:auto;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+.hdn{
+    color: rgb(15, 15, 121);
+    margin-top: 10px;
+}
+.pic{
+    float: left;
+    margin-right: 10px;
+}
 
 
 
