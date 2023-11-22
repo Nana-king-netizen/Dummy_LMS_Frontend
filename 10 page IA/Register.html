@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form filling</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <form action="action_page.php"
+    style="border:4px solid #ccc">
+    <div class="container">
+        <h1>Register</h1>
+        <h3>Please fill in this form to create an account</h3>
+        <hr>
+        <label for="Surname">
+            <b></b></label>
+            <input type="text"
+            placeholder="Enter Surname"
+            name="Surname" required>
+
+            <label for="First name"> 
+                <b></b></label>
+                <input type="First name"
+                placeholder="Enter First name"
+                name="First name" required>
+
+                <label for="Phone number">
+                    <b></b></label>
+                    <input type="Phone number"
+                    placeholder="Enter Phone number"
+                    name="Phone number" required>
+
+                    <label for="Email Address">
+                        <b></b></label>
+                        <input type="Email Address"
+                        placeholder="Enter Email Address"
+                        name="Email Address" required>
+
+                        <label for="Date of birth">
+                            <b></b></label>
+                            <input type="Date of birth"
+                            placeholder="Enter Date of birth"
+                            name="Date of birth" required>
+
+                    <p>Your Educational background</p>
+                    <select name="Educational background">
+                        <option value="Primay School">Primay School</option>
+                        <option value="Secondary School">Secondary School</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="PHD">PHD</option> 
+                    </select>
+
+                     <p>Organization Information</p>
+                     <label for="Organization">
+                        <b></b></label>
+                        <input type="Organization"
+                        placeholder="Enter Organization"
+                        name="Organization" required>
+
+                        <label for="Position">
+                            <b></b></label>
+                            <input type="Position"
+                            placeholder="Enter Position"
+                            name="Position" required>
+
+                    <label>
+                        <input type="checkbox"
+                        checked="checked" name="remember"
+                        style="margin-bottom:15px">
+                        Remember me
+                        <label>
+
+                            <p>By creating an account you agree to our <a href="#"
+                            style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button"
+                                class="cancelbtn">Cancel</button>
+                            </div>
+                        </div>
+    </form>
+</body>
+</html>
