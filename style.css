@@ -370,12 +370,13 @@ p {
 .reach{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
-    padding: 0; 
+    
     text-align: left;
     line-height: 30px;
     width:1000px;
     height:auto;
     text-wrap: wrap;
+    padding:10px ;
     
     
 }
@@ -387,4 +388,25 @@ p {
     color: #fac779;
     position:static;
 }
+.form,.enq{
+    padding: 18px;
+    vertical-align: middle;
+}
+.sub{
+    background-color: #fac779;
+    color: rgb(15, 15, 121);
+    border: none;
+    height: 22px;
+    width:40px;
+    width: max-content;
+    cursor: pointer;
+}
 
+.bar{
+    background-color: #ccc9c9;
+    border: none;
+    height:20px ;
+}
+.text{
+    font-size: 17px;
+}

@@ -151,3 +151,99 @@ ul{
     font-size: 15px;
     line-height: 30px;
 }
+.links{
+    margin-left: 20px;
+}
+.lnks{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px;
+    margin-left:4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: left;
+    line-height: 30px;
+}
+.sub{
+    background-color: #fac779;
+    color: rgb(15, 15, 121);
+    border: none;
+    height: 22px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.bar{
+    margin-left: 20px;
+    }
+    .box{
+        width:200px;
+        margin-left: 15px;
+    }
+.text{
+    font-size: 17px;
+    
+
+}
+.con{
+    background-color: rgb(15, 15, 121);
+    color: #fac779;
+    display:flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 30px;
+    position: static;
+}
+.reach{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-align: left;
+    line-height: 30px;
+    width:-200px;
+    height:auto;
+    text-wrap: wrap;
+    padding:10px ;
+    
+    
+}
+.loc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:rgb(15, 15, 121);
+    color: #fac779;
+    position:static;
+}
+.form,.enq{
+    padding: 18px;
+    vertical-align: middle;
+}
+.sub{
+    background-color: #fac779;
+    color: rgb(15, 15, 121);
+    border: none;
+    height: 22px;
+    width:40px;
+    width: max-content;
+    cursor: pointer;
+}
+.sum{
+    background-color: #fac779;
+    color: rgb(15, 15, 121);
+    border: none;
+    height: 22px;
+    width:40px;
+    width: max-content;
+    cursor: pointer;
+    margin:10px 10px 10px 18px;
+}
+.txt{
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+
+
+
