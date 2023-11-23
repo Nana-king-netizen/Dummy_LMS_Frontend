@@ -363,12 +363,29 @@
   color: white;
   text-decoration: underline;
 }
+.fot-content{
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.cont-fot{
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+/* @media screen{
+  min-width{}
+} */
+
 .footer-col-1{
     flex: 0 0 25%;
-    padding-right: 16px;
+    padding-right: 30px;
     padding-left: 15px;
-    padding-top: 30px;
-    display: inline-block;
+    padding-top: 40px;
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin-right: 20px;
@@ -386,6 +403,7 @@
   list-style: none;
   line-height: 25px;
   line-height: 28px;
+  
 }
 .footer-col-1 ul li a{
   text-decoration: none;
@@ -394,11 +412,11 @@
 
 .footer-col-2{
     flex: 0 0 25%;
-    padding-right: 16px;
+    padding-right: 30px;
     padding-left: 15px;
-    padding-top: 19px;
+    padding-top: 30px;
     flex-direction: column;
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
     margin-right: 20px;
     margin-left: 20px;
@@ -421,9 +439,9 @@
 }
 .footer-col-3{
   flex: 0 0 25%;
-  padding-right: 16px;
+  padding-right: 20px;
   padding-left: 15px;
-  padding-top: 14px;
+  padding-top: 20px;
   flex-direction: column;
   box-sizing: border-box;
   margin-right: 20px;
@@ -527,37 +545,30 @@ color: white;
   margin-top: 8px;
   font-size: 20px;
 }
-
-.phone-icon{
-  width:20px;
-  height: 20px;
-  display: inline-block;
-  border-style: none;
-}
-.envelope-icon{
-  width:20px;
-  height: 20px;
-  display: inline-block;
-  border-style: none;
+.cont-info{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
 }
 
 .Loca-tion{
   flex: 0 0 25%;
-  padding-right: 16px;
-  padding-left: 15px;
+  padding-right: 13px;
+  padding-left: 12px;
   padding-top: 14px;
   flex-direction: column;
   box-sizing: border-box;
-  margin-bottom: 12px;
+  margin-bottom:30px ;
   color: white;
   font-size: 18px;
 }
 .Loca-tion h2{
   font-size: 22px;
+  margin-right: 4px;
+ 
 }
-.Loca-tion ul{
-  list-style: none;
+.lction-12{
+  margin-right: 10px;
+  
 }
-.Loca-tion ul li {
-  font-size: 14px;
-}
+ 

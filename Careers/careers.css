@@ -8,7 +8,7 @@
 }
 .header-section{
   width: 100% !important;
-    background-color: rgba(88, 82, 82, 0.908);
+    background-color: rgba(123, 119, 119, 0.908);
     position: fixed;
     left: 0;
     top: 0;
@@ -17,7 +17,7 @@
     z-index: 997;
 }
 .header{
-  background: rgba(84, 77, 77, 0.702);
+  background:rgba(140, 136, 136, 0.908);
     font-size: 12px;
     padding: 8px;
     width: 100% !important;
@@ -70,7 +70,7 @@
   opacity: 0.7;
 }
 .UG-career-path{
-  background-color: gray;
+  background-color: white;
   padding-bottom:3px ;
   padding-left: 10px;
   padding-top: 4px;
@@ -82,22 +82,72 @@
   text-align: center;
  
 }
-.home-icon{
-  width:40px;
-  height: 40px;
-  display: inline-block;
-  border-style: none;
+
+.main-head img{
+  margin-top: 100px;
+  object-fit:fill;
+  
 }
 
 
 
 
 
-
-
+.top-links-container{
+  margin-top: 500px;
+  margin-left: 40px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.top-links-container h2{
+  margin-right:10px ;
+}
+.top-links-container ul{
+  float: right;
+  margin-right: 8px;
+}
+.top-links-container ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 30px;
+}
+.top-links-container ul li a{
+  padding: 0 8px 0px 8px;
+  text-decoration: none;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  color: #000;
+  font-weight: 520;
+  font-size: 14px;
+  outline: none;
+  margin-right: 110px;
+  margin-left: 40px;
+}
+.top-ul{
+  display: flex;
+}
+.admission{
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+}
+.careers{
+  display: flex;
+  flex-direction: column;
+}
+.libraries{
+  display: flex;
+  flex-direction: column;
+}
+.executives{
+  display: flex;
+  flex-direction: column;
+}
 .footer-section{
   background-color: rgba(2, 24, 69, 0.908);
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   padding-top: 60px;
   margin-left: 80px;
   margin-right: 50px;
@@ -133,12 +183,29 @@
   color: white;
   text-decoration: underline;
 }
+.fot-content{
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.cont-fot{
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+/* @media screen{
+  min-width{}
+} */
+
 .footer-col-1{
     flex: 0 0 25%;
-    padding-right: 16px;
+    padding-right: 30px;
     padding-left: 15px;
-    padding-top: 30px;
-    display: inline-block;
+    padding-top: 40px;
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin-right: 20px;
@@ -156,6 +223,7 @@
   list-style: none;
   line-height: 25px;
   line-height: 28px;
+  
 }
 .footer-col-1 ul li a{
   text-decoration: none;
@@ -164,11 +232,11 @@
 
 .footer-col-2{
     flex: 0 0 25%;
-    padding-right: 16px;
+    padding-right: 30px;
     padding-left: 15px;
-    padding-top: 19px;
+    padding-top: 30px;
     flex-direction: column;
-    display: inline-block;
+    display: flex;
     box-sizing: border-box;
     margin-right: 20px;
     margin-left: 20px;
@@ -191,9 +259,9 @@
 }
 .footer-col-3{
   flex: 0 0 25%;
-  padding-right: 16px;
+  padding-right: 20px;
   padding-left: 15px;
-  padding-top: 14px;
+  padding-top: 20px;
   flex-direction: column;
   box-sizing: border-box;
   margin-right: 20px;
@@ -297,7 +365,11 @@ color: white;
   margin-top: 8px;
   font-size: 20px;
 }
-
+.cont-info{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
 .phone-icon{
   width:20px;
   height: 20px;
@@ -313,21 +385,35 @@ color: white;
 
 .Loca-tion{
   flex: 0 0 25%;
-  padding-right: 16px;
-  padding-left: 15px;
+  padding-right: 13px;
+  padding-left: 12px;
   padding-top: 14px;
   flex-direction: column;
   box-sizing: border-box;
-  margin-bottom: 12px;
+  margin-bottom:30px ;
   color: white;
   font-size: 18px;
 }
 .Loca-tion h2{
   font-size: 22px;
+  margin-left: 2px;
+ 
 }
-.Loca-tion ul{
-  list-style: none;
+.lction-12{
+  margin-left: 4px;
 }
-.Loca-tion ul li {
-  font-size: 14px;
+.btn-btn{
+  color: white;
+  border-radius: 2px;
+  background-color: rgb(17, 155, 17);
+  border: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.btn-btn:hover{
+  background-color: rgb(58, 236, 58);
+}
+.btn-btn:active{
+  opacity: 0.7;
 }
