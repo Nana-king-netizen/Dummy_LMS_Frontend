@@ -40,7 +40,11 @@ header{
         transform-origin: left;
         transform: scaleX(1);
     }
-        
+     
+    body{
+        overflow-x: hidden;
+    }
+
     .container{
         position: relative;
         text-align: center;
@@ -96,7 +100,7 @@ header{
         position: relative;
         height: 400px;
         background: #f0f0f4;;
-        top: -555px;
+        top: -565px;
         margin: 30px 10px;
         padding: 20px 15px;
         display: flex;
@@ -126,8 +130,8 @@ header{
                 flex-wrap: wrap;
                 padding: 30px;
                 margin-top: 8%;
-                right: -950px;
-                top: -1412px;
+                right: -970px;
+                top: -1432px;
                     }
             
               .container3 .card3{
@@ -154,7 +158,35 @@ header{
                 justify-content: center;
                     } 
  
- .btnlogin-popup{
+ .container4{
+    position: relative;
+    width: 2100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+ }
+
+.container4 .card4{
+    width: 908px;
+    position: relative;
+    height: 700px;
+    right: 300px;
+    top: -200px;
+    background:blue;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px gray;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+ 
+                    .btnlogin-popup{
     display: grid;
  }   
     
