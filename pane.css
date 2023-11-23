@@ -286,3 +286,8 @@ ul{
 .pix{
     float: right;
 }
+.fc{
+    margin-top: -11px;
+    line-height: 30px;
+  
+}
