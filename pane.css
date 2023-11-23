@@ -271,6 +271,7 @@ ul{
     color: rgb(15, 15, 121);
     margin-top: 10px;
 }
+
 .pic{
     float: left;
     margin-right: 10px;
@@ -281,4 +282,7 @@ ul{
 .picx{
     height:150px;
     float: left;
+}
+.pix{
+    float: right;
 }
