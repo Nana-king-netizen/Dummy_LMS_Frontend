@@ -43,6 +43,7 @@ header{
      
     body{
         overflow-x: hidden;
+        background-color: #dcdced;
     }
 
     .container{
@@ -170,12 +171,12 @@ header{
  }
 
 .container4 .card4{
-    width: 908px;
+    width: 600px;
     position: relative;
-    height: 700px;
+    height: 550px;
     right: 300px;
     top: -200px;
-    background:blue;
+    background: #f0f0f4;
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
@@ -188,5 +189,7 @@ header{
  
                     .btnlogin-popup{
     display: grid;
+    padding: 5px;
+    
  }   
     
