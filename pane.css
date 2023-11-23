@@ -275,6 +275,10 @@ ul{
     float: left;
     margin-right: 10px;
 }
-
-
-
+.rm{
+    font-size: 14px;
+}
+.picx{
+    height:150px;
+    float: left;
+}
