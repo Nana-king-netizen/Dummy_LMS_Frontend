@@ -291,3 +291,8 @@ ul{
     line-height: 30px;
   
 }
+.px{
+    height:150px;
+    float: left;  
+    margin-right: 10px;
+}
