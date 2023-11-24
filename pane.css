@@ -296,3 +296,13 @@ ul{
     float: left;  
     margin-right: 10px;
 }
+.up{
+    margin-left: 10px;
+}
+.hack{
+    margin-right: 10px;
+    float: left;
+    height:180px;
+    width: 300px;
+    margin-left: 20px;
+}
