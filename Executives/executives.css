@@ -8,7 +8,7 @@
 }
 .header-section{
   width: 100% !important;
-    background-color: rgba(88, 82, 82, 0.908);
+    background-color: rgba(186, 186, 186, 0.908);
     position: fixed;
     left: 0;
     top: 0;
@@ -17,7 +17,7 @@
     z-index: 997;
 }
 .header{
-  background: rgba(84, 77, 77, 0.702);
+  background: rgba(255, 249, 249, 0.702);
     font-size: 12px;
     padding: 8px;
     width: 100% !important;
@@ -70,7 +70,7 @@
   opacity: 0.7;
 }
 .UG-executives{
-  background-color: gray;
+  background-color: white;
   padding-bottom:3px ;
   padding-left: 10px;
   padding-top: 4px;
@@ -82,21 +82,32 @@
   text-align: center;
  
 }
-.home-icon{
-  width:40px;
-  height: 40px;
-  display: inline-block;
-  border-style: none;
+.main-heading{
+  margin-top: 180px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+.main-content img{
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+.text-to-HoD{
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
 }
 
 
 
 
 
-
-
 .top-links-container{
-  margin-top: 10px;
+  margin-top: 200px;
   margin-left: 40px;
   display: inline-flex;
   justify-content: space-between;
