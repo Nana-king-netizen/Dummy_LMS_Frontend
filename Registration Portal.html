@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Portal|Department of Computer Science</title>
+    <link rel="shortcut icon" href="/img/th.ico">
+    <link rel="stylesheet" href="pane.css">
+    <script src="https://kit.fontawesome.com/ac3bca20a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="top"> 
+        <div class="left">
+            <img class="dept-logo" src="/img/comScience_logo.png" alt="logo">
+         </div>
+         <div class="middle"></div>
+         <div class="navbar" id="quick-access">
+            <a class="home" href="/Home.html" ><i class="fa fa-fw fa-home">
+            </i>Home</a>
+            <a class="about" href="/About.html"><i class="fa fa-fw fa-files-o">
+            </i>About</a>
+            <a class="research" href="/Research.html"><i class="fa fa-fw fa-newspaper-o">
+            </i>Research</a>
+            <a class="faculty" href="/Faculty.html"><i class="fa fa-fw fa-landmark-dome">
+            </i>Faculty</a>
+            <a class="icon" href="javascript:void(0)" onclick="navResponsive()">
+                <i class="fa fa-bars">
+                         </i></a>
+         </div>
+         </div>  
+         <hr>
+         <div>
+
+            <h1 class>REGISTRATION</h1>
+                <p class="details">Welcome to the registration portal, register for short courses,upcoming events and internship programs. 
+                    Join us to receive world-quality education, participate in events and apply for internship opportunities. <br><br> <b>Select an option to register
+                    and fill the forms below.</b>
+                </p>
+            </div>
+         <h1 class="sh">Short Courses</h1>
+            <input type="checkbox" id="short-courses" name="Short courses" value="CCNA">
+ <label for="short-courses"> CCNA</label><br>
+<input type="checkbox" id="short-courses" name="short-courses" value="Cybersecurity">
+<label for="short-courses"> Cybersecurity and Privacy</label><br>
+<input type="checkbox" id="short-courses" name="short-courses" value="Human-Computer Interaction">
+<label for="Human-Computer Interaction"> Human-Computer Interaction</label><br> 
+<br><br>
+<form action="/Home.html">
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"><br>
+    <label class="text" for="email">E-mail:</label>
+            <input class="bar" type="email" id="email" name="email"><br> <br>
+    <input class="sub" type="submit" value="Submit">
+
+            
 </body>
 </html>
