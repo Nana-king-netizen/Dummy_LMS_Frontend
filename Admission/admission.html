@@ -66,11 +66,20 @@
         <div class="text-col-15" style="margin-top: 40px;margin-left: 40px; text-align: center;" >
         <h2 style="margin-right: 60px;" >UG Computer Science Admission</h2>
         <p style="margin-right: 60px;"> Undergraduate,Graduate and professional programs in the number one priemier League University </p>
-        <button class="btn-apply" style="margin-right: 70px;margin-bottom: 30px;">APPLY</button>
+        <button type="submit"class="btn-apply" onclick="openPopup()" style="margin-right: 70px;margin-bottom: 30px;">
+          APPLY
+        </button>
+        <div class="popup" id="popup">
+          <img src="tick.jpg">
+          <h2>Thank You!</h2>
+          <p>Your details has been carefully submitted. Thanks!</p>
+          <button type="button" onclick="closePopup()">OK</button>
+        </div>
       </div>
       </div>
     </div>
   </main>
+  
   
   <footer>
     <!--footer starts-->
@@ -166,6 +175,16 @@
       </div>
       
   </footer>
+  <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+      popup.classList.add("open-popup");
+    }
+    function closePopup(){
+      popup.classList.remove("open-popup");
+    }
+  </script>
   
 </body>
 </html>
