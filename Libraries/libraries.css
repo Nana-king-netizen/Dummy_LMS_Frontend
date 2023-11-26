@@ -96,19 +96,10 @@
 }
 .UG-libraries p{
   margin-left: 50px;
+  color:rgb(171, 117, 47)
 }
-.UG-libraries p a{
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-}
-.home-icon{
-  width:40px;
-  height: 40px;
-  display: inline-block;
-  border-style: none;
-  color: #000;
-}
+
+
 .main-heading{
   margin-top: 190px;
   font-size: 40px;

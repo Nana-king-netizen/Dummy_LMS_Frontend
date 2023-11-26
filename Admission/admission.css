@@ -75,13 +75,10 @@
   padding-left: 10px;
   padding-top: 4px;
 }
-.UG-admission p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
- 
+.UG-admission P{
+  color:rgb(171, 117, 47)
 }
+
 
 .main-heading{
   margin-top: 160px;

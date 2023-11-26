@@ -75,12 +75,9 @@
   padding-left: 10px;
   padding-top: 4px;
 }
-.UG-executives p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
- 
+
+.UG-executives P{
+  color:rgb(171, 117, 47)
 }
 .main-heading{
   margin-top: 180px;

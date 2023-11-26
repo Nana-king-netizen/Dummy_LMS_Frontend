@@ -75,11 +75,8 @@
   padding-left: 10px;
   padding-top: 4px;
 }
-.UG-Faculty p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
+.UG-Faculty p {
+  color:rgb(171, 117, 47)
  
 }
 

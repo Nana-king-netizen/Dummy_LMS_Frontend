@@ -75,13 +75,10 @@
   padding-left: 10px;
   padding-top: 2px;
 }
-.UG-academic-program p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
- 
+.UG-Academic-program P{
+  color:rgb(171, 117, 47)
 }
+
 
 
 .main-heading{

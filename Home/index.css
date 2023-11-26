@@ -144,7 +144,7 @@
     margin-right: 50px;
     margin-left: 60px;
     margin-bottom: 20px;
-    background-image:url("20230328_090427.jpg") ;
+     color: white;
 }
 .course4{
   flex: 0 0 25%;
@@ -168,7 +168,7 @@
   box-sizing: border-box;
   margin-right: 50px;
   margin-bottom: 20px;
-  background-image: url(copy.jpg);
+  color: white;
 }
 .title1{
   margin-bottom: 30px;

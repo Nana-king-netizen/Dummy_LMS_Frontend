@@ -75,13 +75,10 @@
   padding-left: 10px;
   padding-top: 4px;
 }
-.UG-career-path p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
- 
+.UG-career-path P{
+  color:rgb(171, 117, 47)
 }
+
 
 .main-head img{
   margin-top: 100px;

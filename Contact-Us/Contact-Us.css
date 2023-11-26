@@ -77,12 +77,8 @@
   padding-left: 10px;
   padding-top: 4px;
 }
-.UG-Contact p a{
-  display: inline-block;
-  text-decoration: none;
-  padding-left: 70px;
-  text-align: center;
- 
+.UG-Contact P{
+  color:rgb(171, 117, 47)
 }
 
 .body-section{
