@@ -30,7 +30,7 @@ header{
         bottom: -6px;
         width:100%;
         height: 3px;
-        background: blue;
+        background: rgb(197, 197, 75);
         border-radius: 5px;
         transform-origin: right; 
         transform: scaleX(0);
@@ -201,7 +201,7 @@ header{
     width: 1350px;
     position: relative;
     height: 1850px;
-    top: -1500px;
+    top: -1300px;
     left: -350px;
     background: #0c0c74;
     margin: 30px 10px;
@@ -221,3 +221,102 @@ header{
 .bluefooter{
    color: #fff; 
 }
+
+.container6{
+    position: relative;
+    text-align: center;
+    border-color: black;
+    width: 1400px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+
+.container6 .card6{
+width: 1400px;
+position: relative;
+height: 1400px;
+background: #dcdced;
+margin: 30px 10px;
+top: -100px;
+padding: 20px 15px;
+display: flex;
+flex-direction: column;
+transition: 0.3s ease-in-out;
+margin-top: 5%;
+}
+
+
+ .head6{
+    background-color: antiquewhite;
+    width: 1400px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+       }
+
+       .container7{
+        position: relative;
+        text-align: center;
+        border-color: black;
+        width: 115px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin-top: 8%;
+    }
+
+.container7 .card7{
+    width: 315px;
+    position: relative;
+    height: 180px;
+    background: #dcdced;
+    margin: 30px 10px;
+    top: -3750px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px gray;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+
+     .head7{
+        background-color: antiquewhite;
+        width: 315px;
+        height: 70px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+           }
+
+           .container8{
+            position: relative;
+            text-align: center;
+            border-color: black;
+            width: 115px;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            padding: 30px;
+            margin-top: 8%;
+        }
+    
+    .container8 .card8{
+        width: 1400px;
+        position: relative;
+        height: 780px;
+        background: rgb(186, 185, 185);
+        margin: 30px 10px;
+        top: -100px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        margin-top: 5%;
+    }
+
