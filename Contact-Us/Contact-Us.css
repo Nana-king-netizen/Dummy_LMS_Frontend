@@ -104,11 +104,13 @@ display: inline-block;
 list-style: none;
 outline: none;
 font-weight:bold ;
+
 }
 
 
 .navigation-content ul li a{
   text-decoration: none;
+  
 }
 .row{
   display: flex;
@@ -184,12 +186,14 @@ input[type=submit]:hover {
 .component ul li{
   list-style: none;
   display: block;
+  
 } 
 
   
 .component ul li a{
   text-decoration: none;
   margin-left: 270px;
+  color: #346336;
 }
 .para1{
   margin-bottom:50px;
