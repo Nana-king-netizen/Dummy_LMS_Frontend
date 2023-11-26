@@ -59,7 +59,13 @@
             </div>
             <div>
               <div class="reg-btn-btn" style="margin-left: 140px; display: inline-block;">
-              <button class="register-btn" type="button" style="margin-top: 30px;">REGISTER</button>
+              <button type="submit" onclick="openPopup()"class="register-btn" type="button" style="margin-top: 30px;">REGISTER</button>
+              <div class="popup" id="popup">
+                <img src="tick.jpg">
+                <h2>Thank You!</h2>
+                <p>Your details has been carefully submitted. Thanks!</p>
+                <button type="button" onclick="closePopup()">OK</button>
+              </div>
             </div>
         </div>
       </div><hr>
@@ -243,5 +249,15 @@
     </div>
     
   <!--Footer section ends-->
+  <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+      popup.classList.add("open-popup");
+    }
+    function closePopup(){
+      popup.classList.remove("open-popup");
+    }
+  </script>
 </body>
 </html>
