@@ -23,3 +23,7 @@ Curtis Samuel Nii Okpoti Mensah
 ![short courses](https://github.com/Curtis488/11329837_DCIT_205/assets/151444847/9ec72b46-0c3c-43c3-9e3d-b7546a2ae92f)
 ![register form](https://github.com/Curtis488/11329837_DCIT_205/assets/151444847/d171482a-e91e-4015-874f-68b52007241e)
 ![Screenshot 2023-11-27 192348](https://github.com/Curtis488/11329837_DCIT_205/assets/151444847/642bf897-546c-42df-add2-45c0ead9aa4d)
+## What I learnt 
+* I learnt how to use CSS to style webpages
+* I also learnt how to write code for a sign up page
+* I learnt how to link multiple pages. 
