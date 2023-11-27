@@ -18,7 +18,7 @@ This is a 10 page redesign of the Department of Computer Science, University of 
    
    To add all untraked or modifying files, the command git add -A is used, to commit the command git commit -m is used and finally to push to github the command git push -u is used
 
-   If the files to be commited have no significant change
+   If the files to be commited have no significant change like untracked files and just need to be modified the command commit -a -m is used.
 
 
    **Name and Student ID**
