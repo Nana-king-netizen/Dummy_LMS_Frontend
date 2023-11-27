@@ -21,7 +21,8 @@ This is a 10 page redesign of the Department of Computer Science, University of 
    If the files to be commited have no significant change like untracked files and just need to be modified the command commit -a -m is used.
 
 
-   **Name and Student ID**
+   # Name and Student ID
+   
    Adaiah Ohenewaah Edinam Tsorblewu
    ID: 11019725
 
