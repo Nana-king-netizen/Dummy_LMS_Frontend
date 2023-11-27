@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system, san-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(images/statue\ in\ front\ of\ balme.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.wrapper{
+    width: 1000px;
+    background: #9d9da4;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.btnlogin-popup{
+    display: grid;
+    padding: 5px;  
+ }   
