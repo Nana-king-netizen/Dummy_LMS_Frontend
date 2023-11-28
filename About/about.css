@@ -100,8 +100,15 @@ nav{
         top:0;
         right:0;
         text-align: left;
-        z-index:2;}
-    } 
+        z-index:2;
+    }
+}
+
+font-size: 14px;
+
+
+
+   
 
 
 .row{
@@ -140,6 +147,10 @@ justify-content:center;
     position:relative;
     cursor:pointer;
     margin-top:10px;
+    line-height: 22px;
+    padding: 10px;
+    font-weight:200; 
+   
  }
     .button-about:hover{
     border:1px solid blue;
@@ -164,11 +175,4 @@ justify-content:center;
     margin-bottom:25px;
     margin-top: 20px;
     font-weight: 600;
-}
-.icons.fa {
-    color:red;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-
 }
