@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      @media only screen and (min-width: 100%) {
+        
+      }
+  
+      @media only screen and (max-width: 100%) {
+          
+      }
+  </style>
+    <title>Facilities</title>
+</head>
+<body>
+        <img src="comScience_logo.png" alt="Department logo" title="" style="width:250px;margin-top: 30px; margin-left: 80px;">
+    
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about page.html">About</a></li>
+                <li><a href="course catalog.html">Course Catalog</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+            </ul>
+        </nav>
+        <style>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            padding-bottom: 10px;
+            padding-right: 100px;
+          }
+          
+        nav li {
+            float: right;
+          }
+          
+          nav li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: small;
+          }
+    
+    li a:hover {
+      background-color: #b9b9b9;
+    }
+           
+    
+        nav a:hover {
+            color: #000000;
+        }
+    </style>
+    
+    <div class="container">
+      <div class="overlay-text">
+          <h1>FACILITIES</h1>
+          <p>
+            Our Computer science facilities provide cutting-edge resources like high-performance computers and<br> collaborative spaces, fostering an environment for students and researchers to explore and<br> innovate in programming, software development, and data analysis.</p>
+      </div>
+    </div>
+    <style>    
+    
+      .container {
+          position: relative;
+          height: 100vh;
+          background: url(red-buildings-households.jpg) center/cover no-repeat; /* Replace 'your-image.jpg' with the path to your image */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          height: 400px;
+          width: 1080px;
+          margin-left: 10%;
+      }
+    
+      .overlay-text {
+          position: absolute;
+          background-color: rgba(42, 65, 114, 0.5); /* Adjust the alpha value to control the overlay darkness */
+          padding: 100px;
+          border-radius: 10px;
+          text-align: center;
+      }</style>
+
+<div class="header">
+    <h1>Our Facilities</h1>
+</div>
+
+<style>.header {
+    background-color: rgb(74, 116, 255);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+</style>
+
+
+<style>
+.slider-container {
+  overflow: hidden;
+ max-width: 800px; /* Adjust the width according to your images */
+  margin: 20px auto;
+  position: relative;
+  margin-top: 50px;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  
+ 
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="slider-container">
+<div class="slider-wrapper" id="slider">
+<div class="slide"><img src="istockphoto-506340238-612x612.jpg" alt="Image 1"></div>
+<div class="slide"><img src="lab-with-computers-servers-isometric-style_948994-3700.avif" alt="Image 2"></div>
+<div class="slide"><img src="360_F_54794086_MIhlz1CHc1iav80e87yk28NOQnvK5SeI.jpg" alt="Image 3"></div>
+<div class="slide"><img src="hihi.jpg" alt="Image 4"></div>
+<div class="slide"><img src="istockphoto-164644952-612x612.jpg" alt="Image 5"></div>
+</div>
+</div>
+
+<script>
+const slider = document.getElementById('slider');
+let counter = 1;
+
+setInterval(() => {
+slider.style.transition = 'transform 1s ease-in-out';
+slider.style.transform = 'translateX(' + (-counter * 100) + '%)';
+counter++;
+
+// Reset the counter to loop back to the first image
+if (counter === 6) {
+  setTimeout(() => {
+    slider.style.transition = 'none';
+    slider.style.transform = 'translateX(0)';
+    counter = 1;
+  }, 500);
+}
+}, 5000); // Adjust the interval as needed (3000 milliseconds = 3 seconds)
+</script>
+
+<h2>COMPUTER SCIENCE LABORATORIES</h2>
+
+<style>h2{
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+
+}</style>
+
+<p1>
+  The University of Ghana boasts state-of-the-art computer laboratories that stand as technological<br> hubs for students pursuing diverse academic disciplines. Nestled within the campus, these<br> laboratories offer a serene and focused environment conducive to productive learning and research.<br>
+  
+  The facilities are equipped with cutting-edge technology, ensuring students have access to the latest<br> software and hardware for their academic endeavors. One of the standout qualities is the<br> robust and reliable Wi-Fi connectivity, enabling seamless online research, collaboration, and project work.<br>
+  
+  The university is committed to providing students with the tools they need to excel, and the computer laboratories<br> are a testament to this commitment. With an emphasis on accessibility, these labs<br> are designed to accommodate a large number of students, fostering a collaborative and dynamic atmosphere<br> where knowledge and ideas flow freely.
+  
+  The University of Ghana's computer laboratories not only meet the<br> technological needs of students but also contribute to creating a vibrant academic community
+</p1>
+
+<style>p1{
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            margin-top: 30px;
+
+        }
+</style>
+
+<div class="slider-container">
+  <div class="slider-wrapper" id="slider2">
+    <!-- Second set of images go here -->
+    <div class="slide"><img src="1.jpg" alt="Image 6"></div>
+    <div class="slide"><img src="2.jpg" alt="Image 7"></div>
+    <div class="slide"><img src="3.jpg" alt="Image 8"></div>
+    <div class="slide"><img src="4.jpg" alt="Image 9"></div>
+    <div class="slide"><img src="5.jpg" alt="Image 10"></div>
+  </div>
+</div>
+<script>
+
+
+  const slider2 = document.getElementById('slider2');
+  let counter2 = 1;
+
+  function slide2() {
+    slider2.style.transition = 'transform 1s ease-in-out';
+    slider2.style.transform = 'translateX(' + (-counter2 * 100) + '%)';
+    counter2++;
+
+    // Reset the counter to loop back to the first image
+    if (counter2 === 6) {
+      setTimeout(() => {
+        slider2.style.transition = 'none';
+        slider2.style.transform = 'translateX(0)';
+        counter2 = 1;
+      }, 500);
+    }
+  }
+
+  setInterval(slide2, 5000); // Adjust the interval as needed (3000 milliseconds = 3 seconds)
+</script>
+
+<h2>LIBRARIES</h2>
+<P1>
+  The University of Ghana's Computer Science Library stands as a cornerstone for academic excellence,<br> offering a curated collection of high-quality books that enrich the academic journey of students and researchers.<br>
+  
+  Nestled within the vibrant campus, the library serves as a hub for knowledge seekers in the field of computer science<br>. The collection is meticulously curated, featuring textbooks, reference materials, and research publications<br> that cater to a diverse range of topics within the realm of computer science.<br>
+  
+  This wealth of resources not only supports coursework but also encourages and facilitates groundbreaking research initiatives.<br> The library's commitment to providing access to the latest and most relevant publications ensures that<br> students and faculty alike have the tools necessary to stay at the forefront of technological advancements.<br>
+  
+  With a conducive environment for focused study and an ever-evolving collection, the Computer Science Library at the University of Ghana<br> plays a pivotal role in fostering academic excellence and the continuous improvement of research endeavors.
+
+</P1>
+
+<div class="slider-container">
+  <div class="slider-wrapper" id="slider3">
+    <!-- Third set of images go here -->
+    <div class="slide"><img src="b.jpg" alt="Image 11"></div>
+    <div class="slide"><img src="d.jpg" alt="Image 12"></div>
+    <div class="slide"><img src="a.jpg" alt="Image 13"></div>
+    <div class="slide"><img src="young-students-attending-university-class (1).jpg" alt="Image 14"></div>
+    <div class="slide"><img src="microphone-with-background-people-out-focus.jpg" alt="Image 15"></div>
+  </div>
+</div>
+
+<script>
+  const slider3 = document.getElementById('slider3');
+  let counter3 = 1;
+
+  function slide3() {
+    slider3.style.transition = 'transform 1s ease-in-out';
+    slider3.style.transform = 'translateX(' + (-counter3 * 100) + '%)';
+    counter3++;
+
+    // Reset the counter to loop back to the first image
+    if (counter3 === 6) {
+      setTimeout(() => {
+        slider3.style.transition = 'none';
+        slider3.style.transform = 'translateX(0)';
+        counter3 = 1;
+      }, 500);
+    }
+  }
+
+  setInterval(slide3, 5000); // Adjust the interval as needed (3000 milliseconds = 3 seconds)
+</script>
+<h2>LECTURE HALLS</h2>
+<P1>
+  
+The lecture halls at the University of Ghana's Computer Science Department are designed to foster<br> an optimal learning environment for students. Equipped with cutting-edge technology,<br> these lecture halls prioritize qualities essential for effective teaching and learning.<br>
+
+The acoustics are meticulously designed to ensure good hearing for every student, promoting clear <br> communication between lecturers and their audience. The halls are well-lit with modern lighting systems,<br> eliminating visual constraints and ensuring that presentations and demonstrations are easily visible to all.<br>
+
+To enhance the teaching experience, digital boards are seamlessly integrated, allowing for dynamic and interactive presentations.<br> This combination of excellent acoustics, lighting, and digital tools creates an engaging<br> and conducive atmosphere for students to absorb complex computer science concepts and actively participate <br>in their educational journey.
+
+The University of Ghana's commitment to providing state-of-the-art <br>facilities in its Computer Science Department contributes <br>significantly to the overall academic experience of its students
+</P1>
+
+<div class="slider-container">
+  <div class="slider-wrapper" id="slider4">
+    <!-- Fourth set of images go here -->
+    <div class="slide"><img src="people-repairing-computer-chips (1).jpg" alt="Image 16"></div>
+    <div class="slide"><img src="robotic-arm-futuristic-factory-controls-production-line-generated-by-ai.jpg" alt="Image 17"></div>
+    <div class="slide"><img src="electronic-circuit-board-with-processor-wires.jpg" alt="Image 18"></div>
+    <div class="slide"><img src="Facebook-Robots-00.webp" alt="Image 19"></div>
+    <div class="slide"><img src="e-robotics_lab_pillars.jpg" alt="Image 20"></div>
+  </div>
+</div>
+
+<script>
+  const slider4 = document.getElementById('slider4');
+  let counter4 = 1;
+
+  function slide4() {
+    slider4.style.transition = 'transform 0.5s ease-in-out';
+    slider4.style.transform = 'translateX(' + (-counter4 * 100) + '%)';
+    counter4++;
+
+    // Reset the counter to loop back to the first image
+    if (counter4 === 6) {
+      setTimeout(() => {
+        slider4.style.transition = 'none';
+        slider4.style.transform = 'translateX(0)';
+        counter4 = 1;
+      }, 500);
+    }
+  }
+
+  setInterval(slide4, 3000); // Adjust the interval as needed (3000 milliseconds = 3 seconds)
+</script>
+
+<h2>ROBOTICS LAB</h2>
+
+<P1>This high-quality robotics lab serves as a dynamic hub for students and researchers alike,<br> providing a conducive environment for exploring the frontiers of robotics and artificial intelligence.<br> Equipped with the latest hardware and software resources, the lab offers students<br> hands-on experience in designing, building, and programming robotic systems.<br>
+
+  The facility not only fosters academic excellence but also encourages collaborative projects,<br> allowing students to work together on groundbreaking research initiatives. The lab's faculty, composed of<br> experienced researchers and experts in the field, actively engage with students,<br> providing mentorship and guidance as they delve into the fascinating world of robotics.<br>
+  
+  With a focus on both theoretical knowledge and practical application, the robotics lab at the <br>University of Ghana's Computer Science Department plays a pivotal role in shaping<br> the future of robotics research and development in the region</P1>
+
+  <footer>
+    <p>&copy; 2023 University of Ghana, Computer science Department. All rights reserved.</p>
+</footer>
+</body>
+</html>
