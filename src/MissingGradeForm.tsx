@@ -9,6 +9,7 @@ function MissingGradeForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
+
     if (
       courseName.trim() === "" ||
       instructorName.trim() === "" ||
@@ -30,12 +31,8 @@ function MissingGradeForm() {
   };
 
   return (
-    <div>
-      <img
-            className="logo"
-            src="images/ug logo.png" 
-            alt="Logo of University of Ghana." style={{height:"150px",background:"white"}}
-          />
+    <div className="body">
+    <img src="images/ug logo.png" alt="Ug logo"style={{height:"150px"}} />
       <h2 style={{paddingLeft:"420px"}}>Missing Grade Report Form< /h2>
       <br />
       <form onSubmit={handleSubmit}>

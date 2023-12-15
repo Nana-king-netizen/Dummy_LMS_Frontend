@@ -20,6 +20,17 @@ const AssistancePage = () => {
     // Set submission status
     setSubmitted(true);
   };
+ 
+  <div className="items_container">
+        <div className="items">
+          <img
+            className="logo"
+            src="images/ug logo.png" 
+            alt="Logo of University of Ghana." style={{height:"150px",background:"white"}}
+          />
+        </div>
+      </div>
+  
 
   return (
     <div>

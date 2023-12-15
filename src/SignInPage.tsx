@@ -1,4 +1,4 @@
-import "./component.css";
+
 import { useState } from "react";
 
 function SignInPage() {
@@ -26,8 +26,10 @@ function SignInPage() {
   };
 
   return (
+    
     <div className="body">
       <img src="images/ug logo.png" alt="Ug logo"style={{height:"150px"}} />
+      <h1 style={{paddingLeft:"380px"}}>Missing Grade Report Form< /h1>
       <form onSubmit={handleSubmit}>
         <fieldset className="form">
           <legend>SignIn</legend>
@@ -58,7 +60,7 @@ function SignInPage() {
                 checked={isHuman}
                 onChange={handleCheckboxChange}
               />
-              I am not a bot
+              I am human
             </label>
           </div>
           <button type="submit">
@@ -66,7 +68,7 @@ function SignInPage() {
           </button>{" "}
           <br /> <br />
           <button type="submit">Forgot pin</button>
-          <button type="submit">Change pin</button>
+          
           <button type="submit">Forgot Student Id</button>
         </fieldset>
       </form>

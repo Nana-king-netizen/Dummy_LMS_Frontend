@@ -25,11 +25,20 @@ function ContactsOfInstructorsPage() {
   };
 
   return (
-    <div style={{ textAlign: "center", paddingLeft:"420px"}}>
-      <h1>Contact Page</h1>
+    <div>
+       <div className="items">
+          <img
+            className="logo"
+            src="images/ug logo.png" 
+            alt="Logo of University of Ghana." style={{height:"150px",background:"white"}}
+          />
+        </div>
+      <h1 style={{ textAlign: "left", paddingLeft:"420px"}}>Contact Page</h1>
+      <div style={{ textAlign: "center", paddingLeft:"420px"}}>
+      </div>
       <br />
       <div>
-        <h2>Instructors</h2>
+        <h2 style={{ textAlign: "left",}}>Instructors</h2>
         <ul>
           {instructors.map((instructor, index) => (
             <li key={index}>
@@ -40,7 +49,7 @@ function ContactsOfInstructorsPage() {
       </div>
       <br />
       <div>
-        <h2>Send Email</h2>
+        <h2 style={{ textAlign: "left"}}>Send Email</h2>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="recipient">Recipient:</label>

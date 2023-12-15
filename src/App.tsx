@@ -4,11 +4,12 @@ import AssistancePage from "./AssistancePage";
 import SignInPage from "./SignInPage";
 import MissingGradeForm from "./MissingGradeForm";
 import ContactsOfInstructorsPage from "./ContactsOfInstructorsPage";
+import GradePage from "./GradePage";
 
 
 function App(){
   return  <div>
-    <MissingGradeForm/>
+    <ContactsOfInstructorsPage/>
   </div>
 }
 export default App;

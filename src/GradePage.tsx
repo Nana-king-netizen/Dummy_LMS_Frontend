@@ -1,10 +1,10 @@
 import { useState } from "react";
-import "./component.css";
+
 
 function GradePage() {
   const [firstGrade] = useState([
     {
-      firstCode: "",
+      firstCode: "UGBS",
       firstCourse: "PRINCIPLES OF MANAGEMENT",
       firstGrade: "A",
     },
@@ -86,7 +86,7 @@ function GradePage() {
       thirdCourse: "COMPUTER ORGANIZATION & ARCHITECTURE",
       thirdGrade: "N/A",
     },
-    { thirdCode: "MATH 223", thirdCourse: "CALCULUS II", thirdGrade: "N/A" },
+    { thirdCode: "DCIT 209", thirdCourse: "E-BUSINESS ARCHITECTURES", thirdGrade: "N/A" },
   ]);
 
   const [selectedFirstCode] = useState("");
@@ -132,15 +132,16 @@ function GradePage() {
     <>
       <div>
         <div>
-          <img
+        <img
             className="logo"
-            src="images/ug logo.jng"
-            alt="Logo of University of Ghana."
+            src="images/ug logo.png" 
+            alt="Logo of University of Ghana." style={{height:"150px",background:"white"}}
+            
           />
         </div>
       </div>
       <br />
-      <h1 style={{ textAlign: "center" }}>Academic Record</h1>
+      <h1 style={{paddingLeft:"420px"}}>Academic Record</h1>
       <div className="record_grid">
         <div>
           <p>StudentID: 1129644</p>
@@ -160,10 +161,10 @@ function GradePage() {
           <b>FIRST SEMESTER</b>
         </div>
         <div className="inner_record">
-          <b>CCT: 18</b>
+          <b>CCT: 12</b>
         </div>
         <div className="inner_record">
-          <b>CCP: 18</b>
+          <b>CCP: 12</b>
         </div>
         <div className="inner_record">
           <b>CGPA: 4.00</b>
@@ -197,10 +198,10 @@ function GradePage() {
           <b>SECOND SEMESTER</b>
         </div>
         <div className="inner_record">
-          <b>CCT: 33</b>
+          <b>CCT: 12</b>
         </div>
         <div className="inner_record">
-          <b>CCP: 33</b>
+          <b>CCP: 12</b>
         </div>
         <div className="inner_record">
           <b>CGPA: 4.00</b>
