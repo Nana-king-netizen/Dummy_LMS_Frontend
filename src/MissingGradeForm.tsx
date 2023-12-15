@@ -20,9 +20,6 @@ function MissingGradeForm() {
       return;
     }
 
-    // Here, you can handle the form submission, such as sending the report to the server or displaying a success message.
-
-    // Reset the form fields after submission
     setCourseName("");
     setInstructorName("");
     setExpectedGrade("");

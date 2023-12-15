@@ -1,0 +1,8 @@
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 15px;
+    column-gap: 10px;
+    background-color: antiquewhite;
+    
+}
